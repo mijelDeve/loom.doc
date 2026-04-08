@@ -8,19 +8,19 @@ const contributions = [
     icon: GitBranch,
     title: 'Reportar Bugs',
     description: 'Encuentra errores y repórtalos en GitHub Issues',
-    link: 'https://github.com/mijelDeve/markdaun/issues',
+    link: 'https://github.com/mijelDeve/loom/issues',
   },
   {
     icon: Code,
     title: 'Desarrollar',
     description: 'Envía pull requests con nuevas características o correcciones',
-    link: 'https://github.com/mijelDeve/markdaun/pulls',
+    link: 'https://github.com/mijelDeve/loom/pulls',
   },
   {
     icon: MessageSquare,
     title: 'Sugerencias',
     description: 'Comparte ideas y sugerencias para mejorar el proyecto',
-    link: 'https://github.com/mijelDeve/markdaun/discussions',
+    link: 'https://github.com/mijelDeve/loom/discussions',
   },
   {
     icon: Heart,
@@ -77,7 +77,7 @@ export default function ContributingPage() {
             Contribuir
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Únete al desarrollo de Markdaun
+            Únete al desarrollo de Loom
           </p>
         </div>
 
@@ -142,8 +142,8 @@ export default function ContributingPage() {
           <div className="mt-8 p-4 bg-gray-900 dark:bg-black rounded-lg overflow-x-auto">
             <pre className="text-gray-300 text-sm font-mono">
 {`# Configuración del entorno de desarrollo
-git clone https://github.com/TU_USUARIO/markdaun.git
-cd markdaun
+git clone https://github.com/TU_USUARIO/loom.git
+cd loom
 npm install
 npm run dev`}
             </pre>
@@ -156,7 +156,7 @@ npm run dev`}
             Código de Conducta
           </h2>
           <p className="text-gray-600 dark:text-gray-400">
-            Al contribuir a Markdaun, te pedimos que mantengas un comportamiento respetuoso y constructivo. 
+            Al contribuir a Loom, te pedimos que mantengas un comportamiento respetuoso y constructivo. 
             Trata a todos los contribuidores y usuarios con respeto y profesionalismo.
           </p>
         </div>
@@ -167,7 +167,7 @@ npm run dev`}
             Licencia
           </h2>
           <p className="text-gray-600 dark:text-gray-400">
-            Markdaun está licenciado bajo <strong>MIT License</strong>. 
+            Loom está licenciado bajo <strong>MIT License</strong>. 
             Al contribuir, aceptas que tu trabajo será publicado bajo esta licencia.
           </p>
         </div>

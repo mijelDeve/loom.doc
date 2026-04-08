@@ -10,7 +10,7 @@ interface Release {
 }
 
 async function getReleases(): Promise<Release[]> {
-  const res = await fetch('https://api.github.com/repos/mijelDeve/markdaun/releases', {
+  const res = await fetch('https://api.github.com/repos/mijelDeve/loom/releases', {
     next: { revalidate: 3600 }
   })
   
@@ -62,7 +62,7 @@ export default async function VersionsPageEN() {
             Version History
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Tracking Markdaun changes and updates
+            Tracking Loom changes and updates
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-500 mt-2">
             Data fetched automatically from GitHub

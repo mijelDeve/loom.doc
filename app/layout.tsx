@@ -4,8 +4,11 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Markdaun - Markdown Editor with Git Integration',
+  title: 'Loom - Markdown Editor with Git Integration',
   description: 'A desktop Markdown editor with Obsidian-style features and integrated Git version control.',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({

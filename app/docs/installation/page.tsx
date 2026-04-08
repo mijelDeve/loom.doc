@@ -30,7 +30,7 @@ export default function InstallationPage() {
             Instalación
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Cómo instalar Markdaun actualmente
+            Cómo instalar Loom actualmente
           </p>
         </div>
 
@@ -69,8 +69,8 @@ export default function InstallationPage() {
           </h3>
           <ol className="space-y-3 mb-6">
             {[
-              'Clonar el repositorio: git clone https://github.com/mijelDeve/markdaun.git',
-              'Entrar al directorio: cd markdaun',
+              'Clonar el repositorio: git clone https://github.com/mijelDeve/loom.git',
+              'Entrar al directorio: cd loom',
               'Instalar dependencias: npm install',
               'Compilar el proyecto: npm run build',
               'Ejecutar en modo desarrollo: npm run dev',
@@ -87,8 +87,8 @@ export default function InstallationPage() {
           {/* Commands */}
           <div className="bg-gray-900 dark:bg-black rounded-lg p-4 overflow-x-auto">
             <pre className="text-gray-300 text-sm font-mono">
-{`git clone https://github.com/mijelDeve/markdaun.git
-cd markdaun
+{`git clone https://github.com/mijelDeve/loom.git
+cd loom
 npm install
 npm run dev`}
             </pre>

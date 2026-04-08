@@ -15,7 +15,7 @@ const navItems = [
 
 async function getLatestVersion(): Promise<string> {
   try {
-    const res = await fetch('https://api.github.com/repos/mijelDeve/markdaun/releases/latest', {
+    const res = await fetch('https://api.github.com/repos/mijelDeve/loom/releases/latest', {
       next: { revalidate: 3600 }
     })
     if (!res.ok) return '1.0.0'
@@ -41,9 +41,9 @@ export default function Navbar() {
           <div className="flex items-center gap-8">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-primary-600 flex items-center justify-center">
-                <span className="text-white font-bold text-lg">M</span>
+                <span className="text-white text-lg">👨‍💻</span>
               </div>
-              <span className="font-semibold text-xl text-gray-900 dark:text-white">Markdaun</span>
+              <span className="font-semibold text-xl text-gray-900 dark:text-white">Loom</span>
             </Link>
             
             <div className="hidden md:flex items-center gap-1">
@@ -91,7 +91,7 @@ export default function Navbar() {
             </div>
 
             <a
-              href="https://github.com/mijelDeve/markdaun"
+              href="https://github.com/mijelDeve/loom"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"

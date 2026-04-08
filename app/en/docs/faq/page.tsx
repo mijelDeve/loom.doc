@@ -5,16 +5,16 @@ import { HelpCircle, ChevronRight, ArrowLeft } from 'lucide-react'
 
 const faqs = [
   {
-    question: 'What is Markdaun?',
-    answer: 'Markdaun is a desktop Markdown editor with Git integration. It is inspired by Obsidian and built with Electron, React, and TypeScript.',
+    question: 'What is Loom?',
+    answer: 'Loom is a desktop Markdown editor with Git integration. It is inspired by Obsidian and built with Electron, React, and TypeScript.',
   },
   {
-    question: 'How do I install Markdaun?',
+    question: 'How do I install Loom?',
     answer: 'You can download the pre-built version for your operating system from the Releases section on GitHub. You can also build from source by following the installation guide.',
   },
   {
     question: 'Do I need Git installed?',
-    answer: 'Yes, to use the Git integration features you need Git installed on your system. Markdaun uses Git for version control.',
+    answer: 'Yes, to use the Git integration features you need Git installed on your system. Loom uses Git for version control.',
   },
   {
     question: 'How do I configure SSH authentication?',
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: 'Can I use wiki-links like in Obsidian?',
-    answer: 'Yes, Markdaun supports wiki-links using the ![[filename]] syntax. This allows you to link to other Markdown files.',
+    answer: 'Yes, Loom supports wiki-links using the ![[filename]] syntax. This allows you to link to other Markdown files.',
   },
   {
     question: 'Are local images stored as base64?',
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: 'Is there a dark theme?',
-    answer: 'Yes, Markdaun includes light and dark themes. The preference is saved in localStorage and persists between sessions.',
+    answer: 'Yes, Loom includes light and dark themes. The preference is saved in localStorage and persists between sessions.',
   },
   {
     question: 'Can I run commands in the integrated terminal?',
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: 'What is Markdaun\'s license?',
-    answer: 'Markdaun is licensed under the MIT License.',
+    answer: 'Loom is licensed under the MIT License.',
   },
 ]
 
@@ -66,7 +66,7 @@ export default function FAQPageEN() {
             Frequently Asked Questions
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Answers to common questions about Markdaun
+            Answers to common questions about Loom
           </p>
         </div>
 
@@ -99,7 +99,7 @@ export default function FAQPageEN() {
             If you did not find the answer you were looking for, you can open an issue on GitHub.
           </p>
           <a
-            href="https://github.com/markdaun/markdaun/issues"
+            href="https://github.com/loom/loom/issues"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors"

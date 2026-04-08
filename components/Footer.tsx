@@ -8,10 +8,10 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 rounded bg-primary-600 flex items-center justify-center">
-              <span className="text-white font-bold text-xs">M</span>
+              <span className="text-white text-sm">👨‍💻</span>
             </div>
             <span className="text-sm text-gray-600 dark:text-gray-400">
-              Markdaun v1.0.0
+              Loom v1.0.0
             </span>
           </div>
 
@@ -26,7 +26,7 @@ export default function Footer() {
               FAQ
             </Link>
             <a
-              href="https://github.com/markdaun/markdaun"
+              href="https://github.com/loom/loom"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors flex items-center gap-1"
